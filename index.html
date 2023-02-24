@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookmarker</title>
+    <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="assets/fontawesome/css/fontawesome.min.css">
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+
+    <div class="site-content">
+        <div class="site-header">
+            <div class="container">
+                <a href="index.html" class="branding">
+                    <img src="https://routeweather.netlify.app/images/logo@2x.png" alt="" class="logo" width="64" height="38">
+                    <div class="logo-type">
+                        <h1 class="site-title">Weather</h1>
+                        <small class="site-description">tagline goes here</small>
+                    </div>
+                </a>
+
+                <!-- Default snippet for navigation -->
+                <div class="main-navigation">
+                    <button type="button" class="menu-toggle"><i class="fa fa-bars"></i></button>
+                    <ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul> <!-- .menu -->
+                </div> <!-- .main-navigation -->
+
+                <div class="mobile-navigation"><ul class="menu">
+                        <li class="menu-item current-menu-item"><a href="index.html">Home</a></li>
+                        <li class="menu-item"><a href="#">News</a></li>
+                        <li class="menu-item"><a href="#">Live cameras</a></li>
+                        <li class="menu-item"><a href="#">Photos</a></li>
+                        <li class="menu-item"><a href="contact.html">Contact</a></li>
+                    </ul></div>
+
+            </div>
+        </div> <!-- .site-header -->
+
+        <div class="hero" data-bg-image="images/banner.png" style="background-image: url(&quot;images/banner.png&quot;);">
+            <div class="container">
+                <form class="find-location">
+                    <input type="text" placeholder="Find your location..." id="search">
+                    <input type="button" value="Find" id="submit">
+                </form>
+
+            </div>
+        </div>
+        <div class="forecast-table">
+            <div class="container">
+                <div class="forecast-container" id="forecast"><div class="today forecast">
+<div class="forecast-header" id="today">
+<div class="day">Wednesday</div>
+<div class=" date">22February</div>
+</div> <!-- .forecast-header -->
+<div class="forecast-content" id="current">
+<div class="location">Cairo</div>
+<div class="degree">
+    <div class="num">18<sup>o</sup>C</div>
+  
+    <div class="forecast-icon">
+        <img src="https://cdn.weatherapi.com/weather/64x64/night/116.png" alt="" width="90">
+    </div>	
+
+</div>
+<div class="custom">Partly cloudy</div>
+<span><img src="https://routeweather.netlify.app/images/icon-umberella@2x.png" alt="" width="21" height="21">20%</span>
+                            <span><img src="https://routeweather.netlify.app/images/icon-wind@2x.png" alt="" width="23" height="21">18km/h</span>
+                            <span><img src="https://routeweather.netlify.app/images/icon-compass@2x.png" alt="" width="21" height="21">East</span>
+</div>
+</div>	<div class="forecast">
+    <div class="forecast-header">
+        <div class="day">Thursday</div>
+    </div> <!-- .forecast-header -->
+    <div class="forecast-content">
+        <div class="forecast-icon">
+            <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+        </div>
+        <div class="degree">22.8<sup>o</sup>C</div>
+        <small>11.3<sup>o</sup></small>
+        <div class="custom">Sunny</div>
+    </div>
+    </div>	<div class="forecast">
+    <div class="forecast-header">
+        <div class="day">Friday</div>
+    </div> <!-- .forecast-header -->
+    <div class="forecast-content">
+        <div class="forecast-icon">
+            <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" alt="" width="48">
+        </div>
+        <div class="degree">22.2<sup>o</sup>C</div>
+        <small>11.8<sup>o</sup></small>
+        <div class="custom">Sunny</div>
+    </div>
+    </div></div>
+            </div>
+        </div>
+
+        
+
+        <footer class="site-footer">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-8">
+                        <form action="#" class="subscribe-form">
+                            <input type="text" placeholder="Enter your email to subscribe...">
+                            <input type="submit" value="Subscribe">
+                        </form>
+                    </div>
+                    <div class="col-md-3 col-md-offset-1">
+                        <div class="social-links">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-google-plus"></i></a>
+                            <a href="#"><i class="fa fa-pinterest"></i></a>
+                        </div>
+                    </div>
+                </div>
+
+                <p class="colophon">Copyright 2014 Company name. Designed by Themezy. All rights reserved</p>
+            </div>
+        </footer> <!-- .site-footer -->
+    </div>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>
